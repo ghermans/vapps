@@ -1,104 +1,17 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<!DOCTYPE html>
 <html lang="en">
  <head>
   <meta charset="utf-8">
 <title>Virtual simulators</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
-<link rel="stylesheet" href="http://klantenservice.telenet.be/sites/all/themes/ecare/css/fonts.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://klantenservice.telenet.be/sites/all/themes/ecare/css/fonts.css">
+<link rel="stylesheet" href="<?php echo base_url('assets/css/layout.css'); ?>">
+      
 <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<style>
-html {
-  position: relative;
-  min-height: 100%;
-}
-    body {
-        font-family: omnesregular;
-        margin-bottom: 40px;
 
-    }
- h2.pane-title{font-family:"omnessemibold"; font-size: 20pt ;color:#f7942f !important;}    
-header {
-    font-family: omnesregular;
-    text-align: left;
-    color: #fff;
-    background: #FFC421;
-}
-
-header .container {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-header img {
-       margin: 0 auto 20px;
-}
-
-header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
-}
-
-.liquid-round {
-border: 1px solid #FFC421;
-padding: 60px 0;
-text-align: center;
-width: 250px;
--webkit-border-radius: 8px;
--moz-border-radius: 8px;
-border-radius: 8px;
-background: #ffff;
-padding-bottom: 20px;
-}  
-
-@media(min-width:768px) {
-    header .container {
-        padding-top: 20px;
-        padding-bottom: 5px;
-    }
-
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
-    }
-
-} 
-
-.row .thumbnail {
-    border-color: #FFC421;
-    min-height: 200px;
-    text-align: center;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
-
-.footer .text-muted {
-  text-align: center;
-  margin: 20px 0;
-}
-
-</style>
  
  </head>
 <body>
