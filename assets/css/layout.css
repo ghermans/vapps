@@ -8,13 +8,12 @@ html {
   min-height: 100%;
 }
     body {
-        font-family: omnesregular;
-        margin-bottom: 40px;
+font-family: "BreuerTextRegular"; color: #58595b; margin: 0; font-size: 14px; line-height: 18px;
 
     }
  h2.pane-title{font-family:"omnessemibold"; font-size: 20pt ;color:#f7942f !important;}    
 header {
-    font-family: omnesregular;
+    font-family: omnessemibold;
     text-align: left;
     color: #fff;
     background: #FFC421;
@@ -29,6 +28,14 @@ header img {
        margin: 0 auto 20px;
 }
 
+header a {
+    font-family: omnesextralight;
+       color: #fff;
+}
+
+header a:hover {
+       color: #fff;
+}
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
@@ -40,6 +47,29 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+.page-header {margin-top: -10px;}
+
+
+/* tab color */
+.nav-tabs>li>a {
+  background-color: #fff; 
+  border-color: #ffd100;
+  color:#000;
+}
+
+/* active tab color */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  color: #fff;
+  background-color: #ffd100;
+  border: 1px solid #ffd100;
+}
+
+/* hover tab color */
+.nav-tabs>li>a:hover {
+  border-color: #ffd100;
+  background-color: #fefefe;
 }
 
 .liquid-round {
@@ -88,3 +118,10 @@ padding-bottom: 20px;
   text-align: center;
   margin: 20px 0;
 }
+
+
+view-content,#block-views-categoryblocks_nodes-block_2 .view-categoryblocks-nodes .view-content,#block-views-categoryblocks_nodes-block_3 .view-categoryblocks-nodes .view-content
+{font-size:20px;}
+.view-top10 .view-content ol,#block-views-categoryblocks_nodes-block_2 .view-categoryblocks-nodes .view-content ul,#block-views-categoryblocks_nodes-block_3 .view-categoryblocks-nodes .view-content ul{list-style-type:none;padding-left:0;}
+.view-top10 .view-content .views-row,#block-views-categoryblocks_nodes-block_2 .view-categoryblocks-nodes .view-content .views-row,#block-views-categoryblocks_nodes-block_3 .view-categoryblocks-nodes .view-content .views-row
+{background-color:#f6f7f8;border-radius:10px;padding:16px 26px;margin-bottom:10px;list-style-type:none;background-image:none;}

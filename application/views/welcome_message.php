@@ -41,13 +41,11 @@
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <div class="tabbable">
                 <ul class="nav navbar-nav navbar-left">
                     <li class="active"><a href="#tab1" data-toggle="tab"><i class="fa fa-apple"></i> Apple</a></li>
                     <li><a href="#tab2" data-toggle="tab"><i class="fa fa-windows"></i> Windows</a></li>
                     <li><a href="#mail" data-toggle="tab"><i class="fa fa-envelope"></i> Mail clients</a></li>
                 </ul>
-            </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="<?php echo base_url('index.php/feedback');?>"><i class="fa fa-lightbulb-o"></i> Feedback</a></li>
                 </ul>                   
@@ -61,8 +59,8 @@
         </span>
     </div>
     <div class="tab-content">
-        <div class="tab-pane active" id="tab1">
-                  <h2 class="pane-title">Slecteer een emulator...</h2>
+      <div class="tab-pane active" id="tab1">
+       <h2 class="pane-title">Slecteer een emulator...</h2>
 
 <div class="row">
   <div class="col-sm-6 col-md-3">
@@ -134,6 +132,8 @@
 </div>
         </div>
   <div class="tab-pane" id="mail">
+       <h2 class="pane-title">Slecteer een emulator...</h2>
+      
 <div class="row">
   <div class="col-sm-6 col-md-3">
     <div class="well">
